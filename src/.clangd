@@ -1,0 +1,2 @@
+CompileFlags:
+  Add: [-Wall, -Wextra, -O3, -march=native, -flto, -funroll-loops, -fomit-frame-pointer]
