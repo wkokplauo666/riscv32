@@ -1,6 +1,6 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -std=gnu11 -O3 -march=native -flto -funroll-loops -fomit-frame-pointer
-CFFLAGS = -fprofile-use
+CFLAGS = -Wall -Wextra -std=gnu11 -march=native -flto -funroll-loops
+CFFLAGS = 
 LDFLAGS = -lm
 
 SRCDIR = src
